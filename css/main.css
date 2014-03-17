@@ -373,6 +373,7 @@ ul {
   }
 
 }
+
 @media screen and (min-width: 800px) {
   nav {
       float: right;
@@ -398,12 +399,20 @@ ul {
       -moz-border-radius: 16px;
       border-radius: 16px;
     }
-
-    .skills p { 
+}
+@media screen and (min-width: 890px) and (max-width: 924px) {
+  .skills p { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 925px) {
+  .skills p { 
       font-family: 'Montserrat', sans-serif;
       font-size: 30px;
-      
-    }
+      width: 50%;
+      float:right;
+  }
 }
 /*****************************************************************************/
 /*
