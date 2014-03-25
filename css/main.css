@@ -232,6 +232,10 @@ ul {
   border: 0;
 }
 
+.aboutMe { 
+  background: #fff;
+}
+
 .aboutMe h2, header { 
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -249,7 +253,6 @@ ul {
 
 .aboutMe .col-l {
   float: left;
-  width: 420px;
   padding: 0 0 0 35px;
 }
 
@@ -301,6 +304,28 @@ ul {
   margin-bottom: 5%;
   width: 25%;
 }
+
+@media screen and (max-width: 462px) {
+  form textarea, input[name="subject"] { 
+    width: 222px;
+  }
+  h6 { 
+    font-size: 20px;
+  }
+  #copyright { 
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 463px) {
+
+  form textarea, input[name="subject"] { 
+    width: 448px;
+  }
+  h6 { 
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 479px) {
   .intro h1 {
     font-family: myriad pro;
@@ -309,8 +334,26 @@ ul {
     width: 100%;
     font-size: 50px;
   }
+  .aboutMe { 
+    height: 210%;
+  }
   .aboutMe .col-l { 
     width: 80%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 583px) { 
+  .aboutMe .col-l { 
+    float: right;
+    padding: 0 0 0 35px;
+    margin: 0 50px;
+  }
+}
+
+@media screen and (min-width: 584px) and (max-width: 925px) { 
+  .aboutMe .col-l { 
+    float: right;
+    padding: 0 0 0 35px;
+    margin: 0 50px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 799px) {
@@ -340,6 +383,7 @@ ul {
     -moz-border-radius: 16px;
     border-radius: 16px;
   }
+  
 }
 
 @media screen and (max-width: 889px) {
@@ -347,6 +391,9 @@ ul {
     display: block;
     width: 100%;
     margin-bottom: 5%;
+  }
+  .aboutMe { 
+    height: 210%;
   }
 
   .skills p{ 
@@ -368,10 +415,8 @@ ul {
     margin-bottom: 5%;
     width: 50%;
   }
-
-  .skills p{ 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+  .aboutMe { 
+    height: 130%;
   }
 
 }
@@ -415,7 +460,63 @@ ul {
       width: 50%;
       float:right;
   }
+  .aboutMe .col-l {
+    float: left;
+    padding: 0 0 0 35px;
+    width: 420px;
+  }
 }
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 13px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-align: left;
+    font-size: 20px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-align: left;
+    font-size: 20px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-align: left;
+    font-size: 20px;
+}
+
+form input.text, 
+form select, form textarea {
+  position: relative;
+  -webkit-appearance: none;
+  display: block;
+  border: 0;
+  background: #fff;
+  background: rgba(255,255,255,0.75);
+  border-radius: 0.35em;
+  box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
+  border: solid 1px rgba(0,0,0,0.15);
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+
+
+section {
+  margin: 0;
+  overflow: hidden;
+  padding: 3em 0 4em 0;
+  box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.05), inset 0 0.1em 0.1em 0 rgba(0,0,0,0.025);
+  text-align: center;
+  background-image: url('images/overlay.png');
+}
+
+section.four {
+  overflow: hidden;
+  background-color: #e8edec;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -453,4 +554,38 @@ ul {
 .post pre.terminal code {
   background-color: #333;
 }
+
+.button
+    {
+      position: relative;
+      display: inline-block;
+      border-radius: 0.35em;
+      color: #fff !important;
+      text-decoration: none;
+      padding: 0.75em 2.5em 0.75em 2.5em;
+      background-color: #8ebebc;
+      border: 0;
+      cursor: pointer;
+      background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
+      background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
+      background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
+      background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');     
+      -moz-transition: background-color 0.35s ease-in-out;
+      -webkit-transition: background-color 0.35s ease-in-out;
+      -o-transition: background-color 0.35s ease-in-out;
+      -ms-transition: background-color 0.35s ease-in-out;
+      transition: background-color 0.35s ease-in-out;
+    }
+
+      .button:hover
+      {
+        background-color: #9ececc;
+      }
+      
+      .button:active
+      {
+        background-color: #7eaeac;
+      }
+
 
