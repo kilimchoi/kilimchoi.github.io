@@ -417,6 +417,10 @@ ul {
     height: 130%;
   }
   
+  .skills p { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+  }
 
 }
 
