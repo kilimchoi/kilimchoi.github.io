@@ -294,6 +294,10 @@ ul {
   text-align: center;
 }
 
+.centered.warning { 
+  color: red;
+  font-size: 15px;
+}
 .one_quarter {
   float: left;
   margin-bottom: 5%;
@@ -349,13 +353,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 584px) and (max-width: 925px) { 
-  .aboutMe .col-l { 
-    float: right;
-    padding: 0 0 0 35px;
-    margin: 0 50px;
-  }
-}
+
 @media screen and (min-width: 480px) and (max-width: 799px) {
   
   /* Navigation
@@ -403,7 +401,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 890px) and (max-width: 957px) {
+@media screen and (min-width: 584px) and (max-width: 957px) {
   .one_quarter {
     float: left;
     margin-bottom: 5%;
@@ -418,6 +416,7 @@ ul {
   .aboutMe { 
     height: 130%;
   }
+  
 
 }
 
@@ -453,7 +452,7 @@ ul {
     font-size: 30px;
   }
 }
-@media screen and (min-width: 925px) {
+@media screen and (min-width: 958px) {
   .skills p { 
       font-family: 'Montserrat', sans-serif;
       font-size: 30px;
@@ -464,6 +463,10 @@ ul {
     float: left;
     padding: 0 0 0 35px;
     width: 420px;
+  }
+  .centered.warning { 
+    width: 50%;
+    float: right;
   }
 }
 
@@ -553,37 +556,7 @@ section.four {
   background-color: #333;
 }
 
-.button
-    {
-      position: relative;
-      display: inline-block;
-      border-radius: 0.35em;
-      color: #fff !important;
-      text-decoration: none;
-      padding: 0.75em 2.5em 0.75em 2.5em;
-      background-color: #8ebebc;
-      border: 0;
-      cursor: pointer;
-      background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
-      background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
-      background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');
-      background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('images/overlay.png');     
-      -moz-transition: background-color 0.35s ease-in-out;
-      -webkit-transition: background-color 0.35s ease-in-out;
-      -o-transition: background-color 0.35s ease-in-out;
-      -ms-transition: background-color 0.35s ease-in-out;
-      transition: background-color 0.35s ease-in-out;
-    }
 
-      .button:hover
-      {
-        background-color: #9ececc;
-      }
-      
-      .button:active
-      {
-        background-color: #7eaeac;
-      }
+
 
 
