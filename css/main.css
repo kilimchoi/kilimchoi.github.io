@@ -235,6 +235,7 @@ ul {
 
 .aboutMe { 
   background: #fff;
+  margin: 0 auto;
 }
 
 .aboutMe h2, header { 
@@ -463,6 +464,10 @@ ul {
       width: 50%;
       float:right;
   }
+  .aboutMe { 
+    width: 960px;
+  }
+  
   .aboutMe .col-l {
     float: left;
     padding: 0 0 0 35px;
