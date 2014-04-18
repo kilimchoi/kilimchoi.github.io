@@ -89,6 +89,7 @@ nav ul li a:hover, nav ul li a:focus  {
   color: #fff;
   text-decoration: none;
 }
+
 nav ul li a:active,
 nav ul li.intro a.selected,
 nav ul li.work a.selected,
@@ -114,11 +115,22 @@ h1:after {
   background: #fff;
 }
 
-p { margin: 1em 0; width: 100%;}
+p { 
+  margin: 1em 0; 
+  width: 100%;
+}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a { 
+  color: #00a; 
+}
+
+a:hover { 
+  color: #000; 
+}
+
+a:visited { 
+  color: #a0a; 
+}
 
 ul { 
   display: block;
@@ -170,7 +182,6 @@ ul {
 .title a {
   color: #4f4f4f;
 }
-
 
 .header a.extra {
   color: #aaa;
@@ -237,7 +248,6 @@ ul {
   padding: 0 0 0 35px;
 }
 
-
 .col-l p {
   display: block;
   margin: 10px 0 31px 0;
@@ -269,7 +279,6 @@ ul {
   width: 48%;
 }
 
-
 .centered {
   text-align: center;
 }
@@ -278,6 +287,7 @@ ul {
   color: red;
   font-size: 15px;
 }
+
 .one_quarter {
   float: left;
   margin-bottom: 5%;
@@ -295,23 +305,26 @@ ul {
   form textarea, input[name="subject"] { 
     width: 222px;
   }
+
   h6 { 
     font-size: 20px;
   }
+
   #copyright { 
     font-size: 10px;
   }
 }
 
 @media screen and (min-width: 463px) {
-
   form textarea, input[name="subject"] { 
     width: 448px;
   }
+
   h6 { 
     font-size: 30px;
   }
 }
+
 @media screen and (max-width: 479px) {
   .intro h1 {
     font-family: myriad pro;
@@ -319,9 +332,11 @@ ul {
     width: 100%;
     font-size: 50px;
   }
+
   .aboutMe { 
     height: 210%;
   }
+
   .aboutMe .col-l { 
     width: 80%;
   }
@@ -336,7 +351,6 @@ ul {
 
 
 @media screen and (min-width: 480px) and (max-width: 799px) {
-  
   /* Navigation
   ----------------------------------*/
   nav {
@@ -362,7 +376,6 @@ ul {
     -moz-border-radius: 16px;
     border-radius: 16px;
   }
-  
 }
 
 @media screen and (min-width: 584px) and (max-width: 957px) {
@@ -377,6 +390,7 @@ ul {
     margin-bottom: 5%;
     width: 50%;
   }
+  
   .aboutMe { 
     height: 130%;
   }
@@ -385,34 +399,33 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
   }
-
 }
 
 @media screen and (min-width: 800px) {
   nav {
-      float: right;
-      margin: 0;
-      padding: 0;
-      width:auto;
-      clear: none;
-      margin-top: 3em;        /* 48px(baseline x 2) / 16px = 3em  */
-      margin-right: 1.0416666666667%; /* grid measure */
-      border: none;
-    }
+    float: right;
+    margin: 0;
+    padding: 0;
+    width:auto;
+    clear: none;
+    margin-top: 3em;        /* 48px(baseline x 2) / 16px = 3em  */
+    margin-right: 1.0416666666667%; /* grid measure */
+    border: none;
+  }
 
-    nav ul li {
-      clear: none;
-      width: auto;
-      border-bottom: none;
-      margin-left: 1.33333333em ; /* 24px(baseline) / 18px = 1.33333333em  */
-    }
+  nav ul li {
+    clear: none;
+    width: auto;
+    border-bottom: none;
+    margin-left: 1.33333333em ; /* 24px(baseline) / 18px = 1.33333333em  */
+  }
 
-    nav ul li a {
-      padding: 1.33333333em;    /* 24px(baseline) / 18px = 1.33333333em */  
-      -webkit-border-radius: 16px;
-      -moz-border-radius: 16px;
-      border-radius: 16px;
-    }
+  nav ul li a {
+    padding: 1.33333333em;    /* 24px(baseline) / 18px = 1.33333333em */  
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+  }
 }
 
 @media screen and (max-width: 889px) {
@@ -421,11 +434,12 @@ ul {
     width: 100%;
     margin-bottom: 5%;
   }
+
   .aboutMe { 
     height: 210%;
   }
 
-  .skills p{ 
+  .skills p { 
     float: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -441,11 +455,12 @@ ul {
 }
 @media screen and (min-width: 958px) {
   .skills p { 
-      font-family: 'Montserrat', sans-serif;
-      font-size: 30px;
-      width: 50%;
-      float:right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    width: 50%;
+    float:right;
   }
+
   .aboutMe { 
     width: 960px;
   }
@@ -455,6 +470,7 @@ ul {
     padding: 0 0 0 35px;
     width: 420px;
   }
+  
   .centered.warning { 
     width: 50%;
     float: right;
