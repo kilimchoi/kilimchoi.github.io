@@ -26,12 +26,12 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 100%; font-family: 'Montserrat', sans-serif; font-weight: 200;}
 
 h1 { 
-   font-size: 3.5em; 
-   line-height: 1em; 
-   text-transform: uppercase; 
-   letter-spacing: 0.15em; 
-   margin-bottom: 1em; 
-   padding: 130px 0 0 0;
+  font-size: 3.5em; 
+  line-height: 1em; 
+  text-transform: uppercase; 
+  letter-spacing: 0.15em; 
+  margin-bottom: 1em; 
+  padding: 130px 0 0 0;
 }
 
 nav {
