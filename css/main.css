@@ -301,30 +301,6 @@ ul {
 }
 
 /* start of media queries */ 
-@media screen and (max-width: 462px) {
-  form textarea, input[name="subject"] { 
-    width: 222px;
-  }
-
-  h6 { 
-    font-size: 20px;
-  }
-
-  #copyright { 
-    font-size: 10px;
-  }
-}
-
-@media screen and (min-width: 463px) {
-  form textarea, input[name="subject"] { 
-    width: 448px;
-  }
-
-  h6 { 
-    font-size: 30px;
-  }
-}
-
 @media screen and (max-width: 479px) {
   .intro h1 {
     font-family: myriad pro;
@@ -341,6 +317,7 @@ ul {
     width: 80%;
   }
 }
+
 @media screen and (min-width: 480px) and (max-width: 583px) { 
   .aboutMe .col-l { 
     float: right;
@@ -453,6 +430,7 @@ ul {
     font-size: 30px;
   }
 }
+
 @media screen and (min-width: 958px) {
   .skills p { 
     font-family: 'Montserrat', sans-serif;
@@ -470,13 +448,10 @@ ul {
     padding: 0 0 0 35px;
     width: 420px;
   }
-  
+
   .centered.warning { 
     width: 50%;
     float: right;
   }
 }
 /* end of media queries */
-
-
-
