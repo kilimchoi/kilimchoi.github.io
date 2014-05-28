@@ -363,19 +363,6 @@ ul {
   }
 }
 
-@media screen and (max-width: 640px) {
-  .linkedinIcon { 
-    content: url("images/16-linkedin.png")
-  }
-  
-  .twitterIcon { 
-    content: url("images/16-twitter.png")
-  }
-  
-  .googleplusIcon { 
-    content: url("images/16-googleplus.png")
-  }
-}
 
 @media screen and (min-width: 584px) and (max-width: 957px) {
   .one_quarter {
