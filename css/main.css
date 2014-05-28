@@ -155,7 +155,7 @@ ul {
 
 .intro {
   overflow:hidden;
-  background-image: url(/images/header_image.jpg);
+  background-image: url(/css/images/header_image.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
