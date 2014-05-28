@@ -310,19 +310,20 @@ ul {
 }
 /* start of media queries */ 
 @media screen and (max-width: 479px) {
-  .intro h1 {
-    font-family: myriad pro;
-    color: #fff;
-    width: 100%;
-    font-size: 50px;
-  }
-
   .aboutMe { 
     height: 210%;
   }
 
   .aboutMe .col-l { 
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    color: #fff;
+    width: 100%;
+    font-size: 45px;
   }
 }
 
