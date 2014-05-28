@@ -298,15 +298,15 @@ ul {
 }
 
 .linkedinIcon { 
-  background-image:url("images/32-linkedin.png")
+  content: url("images/32-linkedin.png")
 }
   
 .twitterIcon { 
-  background-image:url("images/32-twitter.png")
+  content: url("images/32-twitter.png")
 }
   
 .googleplusIcon { 
-  background-image:url("images/32-googleplus.png")
+  content: url("images/32-googleplus.png")
 }
 /* start of media queries */ 
 @media screen and (max-width: 479px) {
@@ -365,15 +365,15 @@ ul {
 
 @media screen and (max-width: 640px) {
   .linkedinIcon { 
-    background-image:url("images/16-linkedin.png")
+    content: url("images/16-linkedin.png")
   }
   
   .twitterIcon { 
-    background-image:url("images/16-twitter.png")
+    content: url("images/16-twitter.png")
   }
   
   .googleplusIcon { 
-    background-image:url("images/16-googleplus.png")
+    content: url("images/16-googleplus.png")
   }
 }
 
