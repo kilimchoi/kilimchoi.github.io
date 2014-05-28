@@ -163,11 +163,11 @@ ul {
 }
 
 .intro h1 { 
-  font-family: myriad pro;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   margin: 2.65em 0 0;
   width: 100%;
-  font-size: 50px;
+  font-size: 42px;
 }
 
 .header a {
