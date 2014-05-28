@@ -32,6 +32,11 @@ h1 {
   letter-spacing: 0.15em; 
   margin-bottom: 1em; 
   padding: 130px 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin: 2.65em 0 0;
+  width: 100%;
+  font-size: 42px;
 }
 
 nav {
@@ -160,14 +165,6 @@ ul {
 
 .intro p { 
   font-size: 15px;
-}
-
-.intro h1 { 
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  margin: 2.65em 0 0;
-  width: 100%;
-  font-size: 42px;
 }
 
 .header a {
