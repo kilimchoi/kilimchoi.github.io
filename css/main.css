@@ -297,6 +297,17 @@ ul {
   width: 25%;
 }
 
+.linkedinIcon { 
+  background-image:url("images/32-twitter.png")
+}
+  
+.twitterIcon { 
+  background-image:url("images/32-linkedin.png")
+}
+  
+.googleplusIcon { 
+  background-image:url("images/32-googleplus.png")
+}
 /* start of media queries */ 
 @media screen and (max-width: 479px) {
   .intro h1 {
@@ -349,6 +360,20 @@ ul {
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     border-radius: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .linkedinIcon { 
+    background-image:url("images/16-twitter.png")
+  }
+  
+  .twitterIcon { 
+    background-image:url("images/16-linkedin.png")
+  }
+  
+  .googleplusIcon { 
+    background-image:url("images/16-googleplus.png")
   }
 }
 
