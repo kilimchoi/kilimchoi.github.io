@@ -22,16 +22,15 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6, p {
   font-size: 100%; font-family: 'Montserrat', sans-serif; font-weight: 200;}
 
 h1 { 
-  font-size: 3.5em; 
-  line-height: 1em; 
-  text-transform: uppercase; 
-  letter-spacing: 0.15em; 
-  margin-bottom: 1em; 
-  padding: 130px 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin: 2.65em 0 0;
+  width: 100%;
+  font-size: 42px;
 }
 
 nav {
@@ -162,13 +161,6 @@ ul {
   font-size: 15px;
 }
 
-.intro h1 { 
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  margin: 2.65em 0 0;
-  width: 100%;
-  font-size: 42px;
-}
 
 .header a {
   font-size: 115%;
