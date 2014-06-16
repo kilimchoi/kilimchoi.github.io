@@ -26,17 +26,15 @@ h2, h3, h4, h5, h6, p {
   font-size: 100%; font-family: 'Montserrat', sans-serif; font-weight: 200;}
 
 h1 { 
-  font-size: 3.5em; 
+  font-size: 60px; 
   line-height: 1em; 
   text-transform: uppercase; 
-  letter-spacing: 0.15em; 
   margin-bottom: 1em; 
-  padding: 130px 0 0 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'lato', sans-serif;
   color: #fff;
-  margin: 3.35em 0 0;
+  margin: 300px 0 0;
   width: 100%;
-  font-size: 42px;
+  -webkit-font-smoothing: antialiased;
 }
 
 nav {
@@ -111,14 +109,6 @@ div {
   display: block;
 }
 
-h1:after { 
-  content: "";
-  display: block;
-  margin: 0.25em auto;
-  width: 4em;
-  height: 1px;
-  background: #fff;
-}
 
 p { 
   margin: 1em 0; 
@@ -164,7 +154,11 @@ ul {
 }
 
 .intro p { 
+  color: #fff;
   font-size: 15px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .header a {
