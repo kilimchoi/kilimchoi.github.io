@@ -311,7 +311,7 @@ ul {
 /* start of media queries */ 
 @media screen and (max-width: 479px) {
   .aboutMe { 
-    height: 210%;
+    height: 100%;
   }
 
   .aboutMe .col-l { 
@@ -379,7 +379,7 @@ ul {
   }
   
   .aboutMe { 
-    height: 130%;
+    height: 100%;
   }
   
   .skills p { 
@@ -423,7 +423,7 @@ ul {
   }
 
   .aboutMe { 
-    height: 210%;
+    height: 100%;
   }
 
   .skills p { 
